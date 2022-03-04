@@ -1,9 +1,4 @@
-/**
-* @projectName   07-05-decode_audio
-* @brief         解码音频，主要的测试格式aac和mp3
-* @author        Liao Qingfu
-* @date          2020-01-16
-*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
