@@ -187,6 +187,7 @@ int main(int argc,char **argv){
     }
     printf("flush in:%d out:%d\n", 0, ret);
     fwrite(dst_data[0], 1, dst_bufsize, dst_file);
+    // output_resample_datatype
     if ((ret = get_format_from_sample_fmt(&fmt, dst_sample_fmt)) < 0)
         goto end;
     fprintf(stderr, "Resampling succeeded. Play the output file with the command:\n"
